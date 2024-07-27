@@ -207,3 +207,66 @@ element.addEventListener("click", function () {
   console.log("clicked");
 });
 ```
+
+## Additional Examples
+
+### Template Literals
+
+```javascript
+let name = "Fenil";
+let greeting = `Hello, ${name}!`; // "Hello, Fenil!"
+```
+
+### Spread Operator
+
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = [...arr1, 4, 5, 6]; // [1, 2, 3, 4, 5, 6]
+
+let obj1 = { a: 1, b: 2 };
+let obj2 = { ...obj1, c: 3 }; // { a: 1, b: 2, c: 3 }
+```
+
+### Destructuring
+
+```javascript
+let [a, b] = [1, 2]; // a = 1, b = 2
+let { x, y } = { x: 10, y: 20 }; // x = 10, y = 20
+```
+
+### Promises
+
+```javascript
+let promise = new Promise((resolve, reject) => {
+  let success = true;
+  if (success) {
+    resolve("Success!");
+  } else {
+    reject("Error!");
+  }
+});
+
+promise
+  .then((response) => {
+    console.log(response); // "Success!"
+  })
+  .catch((error) => {
+    console.log(error); // "Error!"
+  });
+```
+
+### Async/Await
+
+```javascript
+async function fetchData() {
+  try {
+    let response = await fetch("https://api.example.com/data");
+    let data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error("Error:", error);
+  }
+}
+
+fetchData();
+```
