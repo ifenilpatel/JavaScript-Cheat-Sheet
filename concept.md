@@ -76,3 +76,27 @@ let and = true && false; // false
 let or = true || false; // true
 let not = !true; // false
 ```
+
+## Functions
+
+### Function Declaration
+
+```javascript
+function greet(name) {
+  return `Hello ${name}`;
+}
+```
+
+### Function Expression
+
+```javascript
+const greet = function (name) {
+  return `Hello ${name}`;
+};
+```
+
+### Arrow Function
+
+```javascript
+const greet = (name) => `Hello ${name}`;
+```
