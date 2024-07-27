@@ -270,3 +270,88 @@ async function fetchData() {
 
 fetchData();
 ```
+
+### Dates
+
+```javascript
+let now = new Date();
+let specificDate = new Date("2020-01-01");
+let year = now.getFullYear();
+let month = now.getMonth();
+let day = now.getDate();
+let hours = now.getHours();
+let minutes = now.getMinutes();
+let seconds = now.getSeconds();
+
+now.setFullYear(2022);
+now.setMonth(11);
+now.setDate(25);
+now.setHours(10);
+now.setMinutes(30);
+now.setSeconds(45);
+```
+
+### Timers
+
+```javascript
+let timeoutId = setTimeout(function () {
+  // code
+}, 1000);
+
+clearTimeout(timeoutId);
+
+let intervalId = setInterval(function () {
+  // code
+}, 1000);
+
+clearInterval(intervalId);
+```
+
+### Modules
+
+```javascript
+// Exporting
+export const myVar = 42;
+export function myFunction() {
+  // code
+}
+export default function () {
+  // code
+}
+
+// Importing
+import { myVar, myFunction } from "./myModule";
+import myDefaultFunction from "./myModule";
+```
+
+### Local Storage
+
+```javascript
+// Set Item
+localStorage.setItem("key", "value");
+
+// Get Item
+let value = localStorage.getItem("key");
+
+// Remove Item
+localStorage.removeItem("key");
+
+// Clear Storage
+localStorage.clear();
+```
+
+### Session Storage
+
+```javascript
+// Set Item
+sessionStorage.setItem("key", "value");
+
+// Get Item
+let value = sessionStorage.getItem("key");
+
+// Remove Item
+sessionStorage.removeItem("key");
+
+// Clear Storage
+sessionStorage.clear();
+```
