@@ -120,3 +120,51 @@ if (condition) {
 ```javascript
 let result = condition ? "true" : "false";
 ```
+
+## Loops
+
+### For Loop
+
+```javascript
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
+
+### While Loop
+
+```javascript
+let i = 0;
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+```
+
+### Do-While Loop
+
+```javascript
+let j = 0;
+do {
+  console.log(j);
+  j++;
+} while (j < 10);
+```
+
+### For..of Loop (for arrays)
+
+```javascript
+let array = [1, 2, 3];
+for (let value of array) {
+  console.log(value);
+}
+```
+
+### For..in Loop (for objects)
+
+```javascript
+let object = { a: 1, b: 2, c: 3 };
+for (let key in object) {
+  console.log(key, object[key]);
+}
+```
