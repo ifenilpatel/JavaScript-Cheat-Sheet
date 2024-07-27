@@ -47,3 +47,32 @@ let sys = Symbol("symbol"); // Symbol
 let array = ["abc", "def", "ghi"]; // Array
 let obj = { firstName: "Fenil", lastName: "Patel" }; // Object
 ```
+
+## Operators
+
+### Arithmetic
+
+```javascript
+let sum = 1 + 1; // 2
+let diff = 10 - 5; // 5
+let prod = 10 * 1; // 10
+let quotient = 10 / 5; // 2
+let remainder = 10 % 5; // 0
+```
+
+### Comparison
+
+```javascript
+let isEqual = 10 == "10"; // true
+let isStrictEqual = 10 === "10"; // false
+let isNotEqual = 10 != 5; // true
+let isStrictNotEqual = 10 !== 5; // true
+```
+
+### Logical
+
+```javascript
+let and = true && false; // false
+let or = true || false; // true
+let not = !true; // false
+```
