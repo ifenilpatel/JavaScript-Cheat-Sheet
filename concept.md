@@ -355,3 +355,26 @@ sessionStorage.removeItem("key");
 // Clear Storage
 sessionStorage.clear();
 ```
+
+### Data Types
+
+```javascript
+JavaScript supports various data types including:
+
+String: "Fenil Patel"
+Number: 42
+Boolean: true or false
+Null: null
+Undefined: undefined
+Object: { name: "Fenil Patel" }
+Array: ["Fenil", "Patel"]
+```
+
+### Operators
+
+```javascript
+Arithmetic Operators: +, -, *, /, %
+Assignment Operators: =, +=, -=, *=, /=
+Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
+Logical Operators: &&, ||, !
+```
