@@ -168,3 +168,42 @@ for (let key in object) {
   console.log(key, object[key]);
 }
 ```
+
+## DOM Manipulation
+
+### Selecting Elements
+
+```javascript
+let element = document.getElementById("id");
+let elements = document.getElementsByClassName("class");
+let element = document.querySelector("selector");
+let elements = document.querySelectorAll("selector");
+```
+
+### Changing Content
+
+```javascript
+element.textContent = "New text";
+element.innerHTML = "<p>Hi</p>";
+```
+
+### Changing Styles
+
+```javascript
+element.style.color = "red";
+```
+
+### Adding/Removing Classes
+
+```javascript
+element.classList.add("className");
+element.classList.remove("className");
+```
+
+### Event Listeners
+
+```javascript
+element.addEventListener("click", function () {
+  console.log("clicked");
+});
+```
