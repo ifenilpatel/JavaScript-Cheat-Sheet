@@ -100,3 +100,23 @@ const greet = function (name) {
 ```javascript
 const greet = (name) => `Hello ${name}`;
 ```
+
+## Conditionals
+
+### If-else
+
+```javascript
+if (condition) {
+  // code
+} else if (condition) {
+  // code
+} else {
+  // code
+}
+```
+
+### Ternary Operator
+
+```javascript
+let result = condition ? "true" : "false";
+```
